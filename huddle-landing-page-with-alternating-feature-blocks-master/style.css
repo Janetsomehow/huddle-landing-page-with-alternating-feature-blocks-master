@@ -1,0 +1,58 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.top-container{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/bg-hero-desktop.svg);
+    flex-basis: 50%;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.community{
+    display: flex;
+    flex-wrap: 70%;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.mockups{
+    width: 500px;
+    height: 300px;
+}
+
+.left-community{
+    width: 50%;
+    padding-top: 60px;
+}
+   
+/*Grow*/
+.grow{
+    display: flex;
+    padding: 20px;
+    margin: 30px;
+    border: 5px solid grey;
+    box-shadow:  5px 10px white;
+}
+
+.users{
+    display: flex;
+    padding: 20px;
+    margin: 30px;
+    border: 5px solid grey;
+    box-shadow:  5px 10px white;
+}
+ .flowing-conversation{
+     display: flex;
+     padding: 20px;
+     margin: 30px;
+     border: 5px solid grey;
+     box-shadow:  5px 10px white;
+ }
